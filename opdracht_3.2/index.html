@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tui</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form action="antwoord_accept.php">
+      Voornaam:<input
+        type="text"
+        name="vnaam"
+        pattern="[A-Za-z\s]{0,50}"
+        required
+        title="Pleace Enter Alphabet Characters Only"
+      />
+      <input type="Submit" value="Submit" /> <br />
+      Achternaam:<input
+        type="text"
+        name="anaam"
+        pattern="[A-Za-z\s]{0,50}"
+        required
+        title="Pleace Enter Alphabet Characters Only"
+      />
+      <input type="Submit" value="Submit" /> <br />
+
+      Uw afbeelding:<input type="file" name="afb" id="afb" />
+      <input type="submit" value="Verzend" /><br />
+
+      <input type="radio" name="gender" value="male" /> Male
+      <input type="radio" name="gender" value="female" /> Female
+      <br />
+      Straat met huisnummer:<input
+        type="text"
+        name="straenhuis"
+        br
+        Vakantieland:
+        type="text"
+        name="vnaam"
+      /><br />
+      Postcode:<input type="text" name="post" /><br />
+      Stad:<input type="text" name="stad" /><br />
+      Land:<input type="text" name="vnaam" /><br />
+      BSN-Nummer:<input type="text" maxlength="9" /><br />
+
+<datalist id="Vakantielanden">
+    <option value="Zweden"></option>
+    <option value="Noorwegen"></option>
+    <option value="Berlin"></option>
+    <option value="Yugoslavie"></option>
+    <option value="Spanje"></option>
+    <option value="Italie"></option>
+    <option value="Polen"></option>
+    <option value="Duitsland"></option>
+    <option value="Verenigde Koninkrijk"></option>
+    <option value="Verenigde Staten"></option>
+    <option value="China"></option>
+    <option value="Ukraine"></option>
+    <option value="Frankrijk"></option>
+</datalist><br>
+
+
+
+<br />
+    </body>
+</html>
