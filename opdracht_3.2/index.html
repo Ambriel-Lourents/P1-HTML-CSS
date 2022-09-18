@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <form>
     <form action="antwoord_accept.php">
       Voornaam:<input
         type="text"
@@ -44,25 +45,67 @@
       Stad:<input type="text" name="stad" /><br />
       Land:<input type="text" name="vnaam" /><br />
       BSN-Nummer:<input type="text" maxlength="9" /><br />
+    
+Kies je vakantieland <br />  
+<input type="text" id="land" list="landeN">  
+<datalist id="landeN">  
+<option value="Duitsland">  
+<option value="Zweden">  
+<option value="Noorwegen">   
+<option value="Yugoslavie">   
+<option value="Spanje">   
+<option value="Polen">   
+<option value="Italie">   
+<option value="Verenigde Staten">   
+<option value="Verenigde Koninkrijk ">   
+<option value="China">   
+<option value="Ukraine">   
+<option value="Frankrijk">  
+</datalist><br />
 
-<datalist id="Vakantielanden">
-    <option value="Zweden"></option>
-    <option value="Noorwegen"></option>
-    <option value="Berlin"></option>
-    <option value="Yugoslavie"></option>
-    <option value="Spanje"></option>
-    <option value="Italie"></option>
-    <option value="Polen"></option>
-    <option value="Duitsland"></option>
-    <option value="Verenigde Koninkrijk"></option>
-    <option value="Verenigde Staten"></option>
-    <option value="China"></option>
-    <option value="Ukraine"></option>
-    <option value="Frankrijk"></option>
+<label for="Datum van vertrek">Datum van vertrek:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2022-09-01"
+       min="2022-09-19" max="2023-12-31"><br>
+
+       <label for="Datum van terugkomst">Datum van terugkomst:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2022-09-01"
+       min="2022-09-01" max="2023-12-31"><br>
+       
+       <label for="reisgenoten">Kies je aantal reisgenoten:</label>
+       <input list="Aantal reisgenoten" name="reisgenoten" id="reisgenoten">
+<datalist id="Aantal reisgenoten">
+  <option value="1">
+  <option value="2">
+  <option value="3">
+  <option value="4">
 </datalist><br>
 
+<input type="Boek nu" /><br>
 
+<label for="Vul je emailadres in">Vul in je emailadres:</label>
 
-<br />
+<input type="Vul je emailadres in" id="Vul je emailadres in"
+       pattern=".+@globex\.com" size="30" required><br>
+
+       <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+    </div>
+    
+    <div>
+        <label for="pass">Wachtwoord : (Minimaal 14 Characters)</label>
+        <input type="password" id="pass" name="password"
+               minlength="8" required>
+    </div>
+    
+    <input type="submit" value="Maak een account aan">
+    
+
+       </form>
+
     </body>
 </html>
