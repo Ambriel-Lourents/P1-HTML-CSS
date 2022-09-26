@@ -65,7 +65,7 @@ text-align: center;
 font-size: 50px;
 color :white;
 padding-bottom: 20px;
-padding-top: 650px;
+padding-top:45%;
 }
 .right{
   z-index: 200;
@@ -81,8 +81,9 @@ padding-top: 650px;
 color: white;
 }
 .Center{ 
-font-size: 25px;
+font-size:30px;
   text-align: center;
+  padding-top: 120px;
 }
 .picright{
   margin-top: 15rem;
