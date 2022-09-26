@@ -67,30 +67,32 @@ color :white;
 padding-bottom: 20px;
 padding-top: 650px;
 }
-
 .right{
-  text-align: justify;
- font size: 50px;
- position: right;
- 
-
+text-align: right;
+ font-size: 15px;
 }
-h2{
-  color:white ; 
+ h2{
+color: white;
 }
 .Center{ 
-font-size: 20px;
+font-size: 15px;
   text-align: center;
 }
-.pictest{
-margin-left: auto;
+.picright{
+margin-right:right;
+padding-right:100px;
+padding-top:100px;
 display: block;
 }
-p{
-  font-size: 15px;
-  text-align: right;
+.picleft{
+display:block;
+padding-right:100px;
+padding-top:100px;
+margin-left:left;
 }
 .left{
-  text-align: left;
-font-size: 20px;
+ text-align: left;
+ font-size: 15px;
+ padding-left:100px;
+padding-top:200px;
 }
