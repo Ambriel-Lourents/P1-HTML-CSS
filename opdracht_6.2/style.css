@@ -1,0 +1,52 @@
+.all-square{
+    display: flex;
+align-items: stretch;
+  justify-content: space-evenly;
+}
+  .all-square2 {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin: 3rem 0 0 0;
+    flex-direction: row-reverse;
+}
+.square1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+.square2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.square3{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.square4{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+.square5{
+    height: 200px;
+    width: 200px;
+    background-color:aqua;
+}
+.square6{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.square7{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.square8{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
