@@ -65,41 +65,32 @@ text-align: center;
 font-size: 50px;
 color :white;
 padding-bottom: 20px;
-padding-top:45%;
+padding-top: 650px;
 }
+
 .right{
-  z-index: 200;
-  position: absolute;
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: -29vh;
-  margin-left: 42vw;
+  text-align: justify;
+ font size: 50px;
+ position: right;
+ 
 
 }
- h2{
-color: white;
+h2{
+  color:white ; 
 }
 .Center{ 
-font-size:30px;
+font-size: 20px;
   text-align: center;
-  padding-top: 120px;
 }
-.picright{
-  margin-top: 15rem;
-  margin-left: 140rem;
-  height: 360px;
+.pictest{
+margin-left: auto;
+display: block;
 }
-.picleft{
-  margin-top: 10rem;
-  margin-left:20rem;
+p{
+  font-size: 15px;
+  text-align: right;
 }
 .left{
-  z-index: 200;
-  position: absolute;
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: -29vh;
-  margin-left: 4rem;
+  text-align: left;
+font-size: 20px;
 }
