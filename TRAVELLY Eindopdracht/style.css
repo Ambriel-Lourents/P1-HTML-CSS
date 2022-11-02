@@ -63,6 +63,14 @@
     height: 100vh;
     background-size: cover;
   }
+  .exception{
+    background-color: #999999;
+    background-repeat: none;
+    background-position: center;
+    height: 62vh;
+    background-size: cover;
+
+  }
   .mountain{
     background-image: url(landing-page.jpg);
     background-blend-mode: multiply;
@@ -113,5 +121,86 @@ justify-content: center;
 align-items: center;
 text-align: center;
 font-size: 4rem;
+  }
+.txtblue{
+margin: -2vw 0 0 0;
+}
+.threethings{
+display: flex;
+align-items: stretch;
+justify-content: space-evenly;
+background-color: white;
+padding: 5vw 0 0 0;
+}
+.box1{
+height: 40vh;
+width: 25vw;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+text-align: center;
+font-size: 3rem;
+border-top: 12vh solid #131c27;
+}
+.box2{
+  height: 40vh;
+  width: 25vw;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  text-align: center;
+  font-size: 3rem;
+  border-top: 12vh solid #131c27;
+  }
+  .box3{
+    height: 40vh;
+    width: 25vw;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-align: center;
+    font-size: 3rem;
+    border-top: 12vh solid #131c27;
+  }
+ .txt{
+  margin: 3vw 0 0 0;
+
+ }
+ .icon1{
+  width: 4vw;
+  height: 6vh;
+margin: -5vw 0 0 -1.7vw;
+position: absolute;
+ }
+.mountainlast{
+  background-image: url(contact-mountain.png);
+  background-blend-mode: multiply;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+footer{
+background-color: #131c27;
+display: flex;
+color: white;
+}
+.boxv2{
+ height: 45vh;
+width: 55vw;
+border-bottom: 5rem solid  #4c6e97;
+border-radius: 2vh;
+opacity: 80%;
+background-color: #131c27;
+}
+.Txtlogins{
+margin: 5vw 0 0 5vw;
+width: 12vw;
+height: 3vh;
+}
+.Txtlogins2{
+  font-size: 3rem;
+  margin: -vw 0 0 5vw;
+  width: 12vw;
+  }
+  input {
+    width: 100%;
   }
   
