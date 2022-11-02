@@ -1,0 +1,117 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+  }
+  
+  nav {
+    background-color: #131c27;
+    color: white;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+  }
+  
+  nav div {
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    width: 30vw;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0 1rem;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  h1 {
+    font-family: "Pattaya", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 350;
+    margin: 1rem 0;
+  }
+  
+  h2 {
+    font-size: 4.5rem;
+    margin: 2.5rem;
+  }
+  
+  section {
+    background-color: #999999;
+    background-repeat: none;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+  }
+  .mountain{
+    background-image: url(landing-page.jpg);
+    background-blend-mode: multiply;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .mountain button {
+    padding: 2rem 6rem 2rem 6rem;
+    font-size: 2rem;
+    background-color: #4c6e97;
+    color: white;
+    border: 0 none white;
+  }
+  article {
+    margin: 2.5rem;
+    font-weight: 300rem;
+    font-size: 4.5rem;
+  }
+  .newyork {
+    background-image: url(new-york-page.png);
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 4rem;
+  }
+  hr {
+    border: 2px solid white;
+    margin: -1vw 0 0 1.5vw;
+    width: 33.3vh;
+   
+  }
+  .blahblah{
+    margin: -1vw 0 0 1.4vw;
+  }
+
+  .blueinfo{
+height: 25vh;
+background-color: #131c27 ;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size: 4rem;
+  }
+  
