@@ -1,0 +1,60 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+header{
+    background-color: red;
+}
+.sec1{
+    background-color: yellow;
+    width: 100vw;
+height: 30vh;
+}
+.sec2{
+    background-color: orange;
+    width: 100vw;
+height: 30vh;
+}
+.sec3{
+background-color: green;
+width: 100vw;
+height: 30vh;
+}
+
+
+@media only screen and (max-width: 800px)  {
+    header{
+        display: flex;
+        justify-content: center;
+        background-color: pink;
+    }
+
+    .sec1 {
+      background-color: crimson;
+    }
+    .sec2 {
+      background-color: blueviolet;
+    }
+    .sec3 {
+      background-color: plum;
+    }
+  }
+@media only screen and (max-width: 597px) {
+    header{
+      background-color: lightseagreen;
+
+    }
+    .sec1 {
+      background-color: blue;
+    }
+    .sec2 {
+      background-color: magenta;
+    }
+    .sec3 {
+      background-color: darkblue;
+    }
+  }
+
+  
+
