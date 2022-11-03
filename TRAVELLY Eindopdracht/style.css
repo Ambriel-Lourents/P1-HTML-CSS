@@ -205,4 +205,82 @@ height: 3vh;
   input {
     width: 100%;
   }
-  
+  footer{
+    background-color: #131c27;
+    display: flex;
+    color: white;
+    }
+    .boxv2{
+     height: 45vh;
+    width: 55vw;
+    border-bottom: 5rem solid #4c6e97;
+    border-radius: 2vh;
+    opacity: 80%;
+    background-color: #131c27;
+    
+    }
+    .Txtlogins{
+    margin: 0vw 0 0 2.3vw;
+    width: 12vw;
+    height: 3vh;
+    }
+    .Txtlogins2{
+      font-size: 3rem;
+      margin: 0vw 0 0 0vw;
+      width: 12vw;
+      }
+      .footer1{
+        font-family: "Pattaya", sans-serif;
+    
+      }
+     .footerflex{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    
+     }
+     .icons-container{
+      display: flex;
+      align-items: center;
+      margin: 2vw 0 0 0;
+     }
+     .iconv1{
+    width: 7vw;
+    height: 6vh;
+    
+     }
+     .iconv2{
+    
+      width: 7vw;
+      height: 6vh;
+      
+    }
+    .iconv3{
+    
+      width: 7vw;
+      height: 6vh;
+      
+    }
+    .button2{
+    
+     color: transparent;
+    border: #4c6e97 solid;
+      margin: 9.8vw 0 0 0;
+    }
+    .button2 p{
+      color: white;
+      height:rem;
+      width: rem;
+      font-size: 3rem;
+background-color: #4c6e97;
+    }
+    
+    @media only screen and (max-width: 597px)  {
+      body{
+    
+        
+      }
+    }
